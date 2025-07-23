@@ -16,7 +16,7 @@ const CartPage = () => {
       <div className='text-center'>
         <h2>Your Cart is Empty</h2>
         <p className='text-gray-600 mb-4 '>Add Some Products to your Cart to see them here</p>
-        <Link to="/" className='inline-block bg-zinc-200 px-6 py-2 rounded-lg hover:bg-zinc-300'>Contine Shopping</Link>
+        <Link to="/React-E-Commerce" className='inline-block bg-zinc-200 px-6 py-2 rounded-lg hover:bg-zinc-300'>Contine Shopping</Link>
       </div>
 
     </div>

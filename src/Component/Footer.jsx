@@ -34,7 +34,7 @@ function Footer() {
                     <div>
                         <h2 className='text-2xl font-semibold my-4'>Pages</h2>
                         <ul>
-                            <li> <Link to="/">Home</Link> </li>
+                            <li> <Link to="/React-E-Commerce">Home</Link> </li>
                             <li> <Link to="/about">About</Link> </li>
                             <li> <Link to="/faqs">FAQs</Link> </li>
                             <li> <Link to="/contact">Contact</Link> </li>
@@ -43,7 +43,7 @@ function Footer() {
                     <div>
                         <h2 className='text-2xl font-semibold my-4'>Category</h2>
                         <ul>
-                            <li> <Link to="/">Monitors</Link> </li>
+                            <li> <Link to="/React-E-Commerce">Monitors</Link> </li>
                             <li> <Link to="/about">GPUs</Link> </li>
                             <li> <Link to="/faqs">Laptops</Link> </li>
                             <li> <Link to="/contact">Power Supply</Link> </li>

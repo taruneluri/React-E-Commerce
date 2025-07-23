@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter >
         <Navbar/>
         <Routes>
-          <Route path="/" element = {<Home/>} />
+          <Route path="/React-E-Commerce" element = {<Home/>} />
           <Route path="/cart" element = {<CartPage/>} />
           <Route path="/product/:id" element = {<ProductDetails/>} />
         </Routes>

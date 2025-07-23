@@ -15,7 +15,7 @@ const ProductDetails = () => {
     return <div className='container mx-auto px-4 py-8'>
       <div className='text-center'>
         <h2 className='text-2xl font-bold mb-4'>Product No Found</h2>
-        <Link to="/" className='text-blue-600 hover:text-blue-800'>Return to Home</Link>
+        <Link to="/React-E-Commerce" className='text-blue-600 hover:text-blue-800'>Return to Home</Link>
 
       </div>
     </div>
@@ -24,7 +24,7 @@ const ProductDetails = () => {
   return (
     <div className='container mx-auto px-4 py-8'>
       <div>
-        <Link to="/" className='mb-8 inline-block'> Back to Products</Link>
+        <Link to="/React-E-Commerce" className='mb-8 inline-block'> Back to Products</Link>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center'>
           <div className='shadow-md p-4 rounded w-[600px] items-center'>
             <img src={product.image} alt="" className='w-3/4 ml-15' />
